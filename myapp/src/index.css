@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-lists {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0.2rem 1.2rem;
+  padding: 0.2rem 1.2rem;
+  margin-top: 1%;
+}
+
+.navbar-links {
+  display: none;
+  text-decoration: none;
+}
+
+.nav {
+  color: rgb(156, 148, 148);
+  font-size: large;
+  display: flex;
+  text-decoration: none;
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem 0.2rem;
+  position: relative;
+}
+
+
+.nav:hover {
+  color: rgb(43, 43, 43);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12rem;
+  height: 13rem;
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem 1.2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(230, 227, 227);
+  height: 4rem;
+}
+
+.cart-trolley-link {
+  position: relative;
+}
+
+.cart-trolley {
+  height: 100px;
+  width: 33px;
+  position: relative;
+}
+
+.cart-total-items {
+  color: white;
+  font-size: 1.0rem;
+  background-color: lightblue;
+  width: 1.7rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+  position: absolute;
+  top: 0%;
+  left: 60%
+}
+
+.cart-total-items:hover {
+  color: rgb(255, 249, 241);
+  background-color: rgb(140, 140, 212);
+}
+
+.mobile-nav-btn {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+.close-outline {
+  display: none;
+}
+
+.grid {
+  display: grid;
+  gap: 25rem;
+}
+
+.grid-2 {
+  display: grid;
+  gap: 0rem;
+}
+
+.grid-3 {
+  display: grid;
+  gap: 8rem;
+}
+
+.grid-4 {
+  display: grid;
+  gap: 13rem;
+  padding-top: 10px;
+  padding-left: 28px;
+  font-family: "Rajdhani";
+}
+
+.grid-5 {
+  padding: 10px 150px;
+  display: grid;
+  gap: 1.5rem;
+  font-family: "Rajdhani";
+}
+
+.grid-6 {
+  padding: 19px 8rem;
+  display: grid;
+  gap: 1.5rem;
+  font-family: "Rajdhani";
+}
+
+.grid-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.single-image {
+  padding-top: 0px;
+}
+
+.main-div-image {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.single-product-image {
+  width: 15rem;
+  height: 9rem;
+  padding: 12px 0px;
+  margin: -26px -20px;
+}
+
+.single-product-main-image {
+  width: 21rem;
+  height: 14rem;
+}
+
+.icon-3 {
+  color: rgba(240, 240, 24, 0.87);
+}
+
+.icon-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews {
+  padding-left: 14px;
+}
+
+.mainfooter {
+  padding-top: 1rem;
+}
+
+.contact-footer {
+  padding-top: 0rem;
+  background-color: rgb(230, 227, 227);
+  width: 55vw;
+  height: 6rem;
+  position: relative;
+  left: 25%;
+  top: 65px;
+  border-radius: 10px;
+}
+
+.footer {
+  color: #e3dfdf;
+  padding: 4rem 0 2rem 0;
+  font-family: "Rajdhani";
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 48, 99);
+  width: 100vw;
+  height: 10rem;
+  text-align: center;
+}
+
+
+.navlink-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-footer {
+  padding-top: 0;
+  line-height: 2.9rem;
+  position: relative;
+  top: -15%;
+}
+
+.follow-us {
+  line-height: 0rem;
+  position: relative;
+  top: -13%;
+}
+
+.call-footer {
+  line-height: 2.9rem;
+  position: relative;
+  top: -14%;
+}
+
+.sub-form-1 {
+  width: 11rem;
+  height: 1.5rem;
+}
+
+.sub-form-1::placeholder {
+  font-family: 'Rajdhani';
+  padding-left: 5px;
+  font-size: medium;
+}
+
+
+.grid-column-two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-column-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-column-four {
+  grid-template-columns: 1fr 1.2fr .5fr .8fr;
+}
+
+.grid-column-five {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.button {
+  font-family: 'Roboto';
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(107, 160, 206);
+  color: white;
+  text-align: center;
+  font-size: large;
+  margin: 1rem 0rem;
+  padding: 0.4rem 0.6rem;
+}
+
+button .navlink-btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+.figure {
+  background-color: rgb(107, 160, 206);
+  width: 239px;
+  height: 172px;
+  position: relative;
+  top: 5%;
+  right: 9%;
+  z-index: -1;
+}
+
+.img-style {
+  width: 21.4rem;
+  height: 14.5rem;
+  position: absolute;
+  top: 21%;
+  right: 12%;
+  /* width: 100%;
+  height: auto; */
+}
+
+.hero-section-data {
+  font-family: 'Rajdhani';
+  text-transform: capitalize;
+  position: relative;
+  top: 30%;
+  left: 56%;
+  text-align: left;
+}
+
+/* @font-face {
+  font-family: 'Rajdhani';
+  src: local('Rajdhani'), url(.public/fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
+} */
+
+.hero-section-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: "Rajdhani";
+}
+
+.services-1,
+.services-3 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 227, 227);
+  width: 19rem;
+  height: 14rem;
+  text-align: center;
+  position: relative;
+  top: 80%;
+  border-radius: 1rem;
+
+}
+
+.services-1 {
+  position: relative;
+  left: 41%;
+  padding: 0px;
+}
+
+.services-3 {
+  position: relative;
+  right: 11%;
+  padding: 0px;
+}
+
+.services-2 {
+  gap: 0rem;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  /* background-color: transparent;
+  box-shadow: none; */
+}
+
+.services-part-1 {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(230, 227, 227);
+  width: 19rem;
+  height: 5.25rem;
+  text-align: center;
+  position: relative;
+  top: 85%;
+  right: 10%;
+  left: 10%;
+  border-radius: 1rem;
+}
+
+.services-part-2 {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(230, 227, 227);
+  width: 19rem;
+  height: 5.25rem;
+  text-align: center;
+  position: relative;
+  top: 93%;
+  right: 10%;
+  left: 10%;
+  border-radius: 1rem;
+}
+
+.icon {
+  /* font-size: rem; */
+  width: 30px;
+  height: 33px;
+  padding: 13px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #5138ee;
+}
+
+.icon-2 {
+  width: 30px;
+  height: 33px;
+  padding: 9px;
+  color: white;
+  background-color: rgb(44, 48, 99);
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.companies {
+  font-family: "Rajdhani";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 227, 227);
+  width: 100vw;
+  height: 10rem;
+  text-align: center;
+  position: relative;
+  top: 80%;
+  margin-top: 16rem;
+}
+
+
+.contact {
+  padding: 3rem 0 5rem 0;
+  text-align: center;
+}
+
+.contact-h2 {
+  text-align: center;
+  font-size: large;
+  font-family: 'Rajdhani';
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-items: center;
+  padding: 1rem 0 1rem 0;
+
+}
+
+.input {
+  height: 2rem;
+  width: 22rem;
+}
+
+.input::placeholder {
+  font-family: 'Rajdhani';
+  padding-left: 5px;
+  font-size: medium;
+}
+
+.textarea::placeholder {
+  font-family: 'Rajdhani';
+  padding-left: 5px;
+  font-size: medium;
+}
+
+.button-2 {
+  width: 5.5rem;
+  position: absolute;
+  top: 47rem;
+  left: 31rem;
+}
+
+.main-data {
+  margin: -14px -6px;
+  padding-top: 2rem;
+  padding-left: 9.6rem;
+  font-family: "Rajdhani";
+  text-align: left;
+}
+
+.common-heading {
+  margin-top: -15px;
+}
+
+.featured-product {
+  background-color: rgb(230, 227, 227);
+  height: 25rem;
+  width: 100vw;
+}
+
+.featured-info {
+  padding-top: 16rem;
+}
+
+.card-img {
+  width: 16rem;
+  height: 10rem;
+}
+
+.product {
+  text-decoration: none;
+}
+
+.caption {
+  text-decoration: none;
+  color: rgb(39, 37, 37);
+  background-color: rgb(230, 227, 227);
+  width: 5rem;
+  position: relative;
+  top: -159px;
+  left: 160px;
+  border-radius: 1rem;
+  text-transform: capitalize;
+}
+
+.card-data-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-data {
+  margin-top: -56px;
+  padding: 0 2.5rem;
+}
+
+.card {
+  text-transform: capitalize;
+  background-color: #fff;
+  width: 21rem;
+  height: 13.5rem;
+  padding-top: 0.5rem;
+}
+
+.card-data-price {
+  color: rgb(155 131 131 / 85%);
+}
+
+.page-nav {
+  text-decoration: none;
+}
+
+.page-nav-start {
+  font-family: 'Rajdhani';
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(230, 227, 227);
+  height: 2.5rem;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.single-product-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-warranty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.warranty-div {
+  padding-left: 20px;
+}
+
+.product-description {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.warranty-icon {
+  padding: 6px;
+  background-color: rgb(230, 227, 227);
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 1.8rem
+}
+
+.deal-price {
+  color: rgb(43, 123, 150);
+}
+
+.colors p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btnStyle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btnStyle:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+.checkStyle {
+  color: #fff;
+}
+
+.add-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.amount-btn {
+  color: grey;
+  background-color: #fff;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.Products-main-page {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  gap: 0rem;
+}
+
+.grid-view {
+  display: grid;
+  gap: 0rem;
+  padding: 0rem 3rem;
+}
+
+/*Media Queries for Home Page*/
+
+@media screen and (max-width:667px) {
+  .mobile-nav-btn {
+    display: inline-block;
+    z-index: 9999;
+    color: rgb(238, 228, 228);
+  }
+
+  .mobile-nav-icon {
+    font-size: 2.7rem;
+    top: 0%;
+    right: 3%;
+    color: grey;
+    background-color: rgb(221, 216, 216);
+  }
+
+  .mobile-nav-icon[name="menu-outline"] {
+    margin-right: 12px;
+    background-color: rgb(255, 250, 250);
+    ;
+  }
+
+  .active .mobile-nav-icon {
+    display: none;
+    font-size: 3.2rem;
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    color: rgb(110, 110, 110);
+    z-index: 9999;
+  }
+
+  .active .close-outline {
+    display: inline-block;
+  }
+
+  .navbar-lists {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: -46px;
+    left: -39px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    /* transform: translateX(100%);
+    transform-origin: top;
+    transition: all 3s linear; */
+  }
+
+  .active .navbar-lists {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+    /* transform-origin: right;
+    transition: all 3s linear; */
+  }
+
+  .nav {
+    font-size: larger;
+  }
+}
