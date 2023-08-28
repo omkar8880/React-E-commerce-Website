@@ -1,0 +1,118 @@
+.contact-short {
+  max-width: 50%;
+  margin: auto;
+  padding: 1rem 3rem;
+  background-color: #F6F8FA;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transform: translateY(50%);
+
+  .grid div:last-child {
+    justify-self: end;
+    align-self: center;
+  }
+}
+
+.contact-h3-1 {
+  font-family: 'Jost';
+  color:grey;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.contact-h3-2 {
+  font-family: 'Jost';
+  color:grey;
+  margin-top: -20px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.hireme-btn-link {
+  text-decoration: none;
+  color: whitesmoke
+}
+
+footer {
+  padding: 0rem 0 1rem 0;
+  background-color: #1f4060;
+  color: white;
+
+  h3 {
+    color: white;
+    margin-bottom: 2.4rem;
+  }
+
+  p {
+    color: white;
+  }
+
+  .footer-social--icons {
+
+    display: flex;
+    gap: 2rem;
+
+    div {
+      padding: 1rem;
+      border-radius: 50%;
+      border: 2px solid white;
+
+      .icons {
+        color: white;
+        font-size: 2.4rem;
+        position: relative;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.icons {
+  color: white;
+  height: 3rem;
+  width: 1.7rem;
+}
+
+.footer-subscribe {
+  text-align: left;
+}
+
+.footer-h3 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.footer-bottom--section {
+  padding-top: 0rem;
+
+  hr {
+    margin-bottom: 2rem;
+    color: white;
+    height: 0.1px;
+  }
+}
+
+.grid-two-column {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column {
+  padding: 0 3rem 0 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-column {
+  color: white;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-about , .footer-subscribe , .footer-social 
+, .footer-contact{
+  text-align: left;
+}

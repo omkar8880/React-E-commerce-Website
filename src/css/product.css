@@ -1,0 +1,105 @@
+.container-5{
+    margin-top: 5rem;
+    background: rgb(212, 219, 223);
+    max-width: 100%;
+    padding: 3rem 8rem 4rem 10rem;
+    font-family: 'Jost';
+}
+
+.product-figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: all 0.2s linear;
+      cursor: pointer;
+    }
+    &:hover::after {
+      width: 100%;
+    }
+    &:hover img {
+      transform: scale(1.2);
+    }
+    
+}
+    .product-image {
+      width : 14.7rem;
+      transition: all 0.2s linear;
+    }
+
+    .caption {
+      position: absolute;
+      top: 6%;
+      right: 10%;
+      text-transform: uppercase;
+      background-color: #F6F8FA;
+      color: #8490ff;
+      padding: 0.2rem 1rem;
+      font-size: 0.8rem;
+      border-radius: 2rem;
+    }
+
+  .card {
+    /* background-color: #fff; */
+    border-radius: 0rem;
+  }
+    .card-data {
+      padding: 0 3rem;
+      margin-top: -2rem;
+    }
+
+    .card-data-flex {
+      margin: 0rem 0rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* h3 {
+      color: rgba(29 ,29, 29, .8);
+      text-transform: capitalize;
+    } */
+
+    .card-data--price {
+      color: #8490ff;
+    }
+
+    .grid-three-column-1{
+        display: grid;
+        gap: 0rem;
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .product-link{
+        text-decoration: none;
+    }
+
+    .intro-data-1{
+        text-transform: capitalize;
+        color : rgba(29 ,29, 29, .8);
+        text-align: left;
+        padding-left: 3.3rem;
+    }
+
+    .common-heading-1{
+        color : rgba(29 ,29, 29, .8);
+        text-align: left;
+        padding-left: 3.3rem;
+    }
+
+    
+    .grid-three-column-grid-view{
+      display: grid;
+      gap:0rem;
+      grid-template-columns: repeat(3 , 1fr);
+    }

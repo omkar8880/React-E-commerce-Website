@@ -1,0 +1,242 @@
+.page-nav {
+    text-transform: capitalize;
+    height: 5rem;
+    background-color: #F6F8FA;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+    font-family: "Jost";
+}
+
+.page-nav-link {
+    font-size: 1.5rem;
+}
+
+.grid-two-column-single-product {
+    max-width: 100%;
+    margin-top: 5rem;
+    padding: 0rem 9rem 4rem 10rem;
+    font-family: 'Jost';
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.product_images {
+    display: flex;
+    align-items: center;
+}
+
+.product-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0rem;
+}
+
+.product-data-warranty {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.product-warranty-data {
+    text-align: center;
+}
+
+.warranty-icon {
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.7rem;
+    padding: 1rem;
+    color: rgb(91, 86, 86);
+}
+
+.single-product-p {
+    font-size: 1rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.single-product-h2 {
+    font-size: 2rem;
+}
+
+.product-data-price {
+    font-weight: bold;
+}
+
+.product-data-real-price {
+    color: rgb(98 84 243);
+}
+
+
+.product-data-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    font-size: 1.8rem;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+
+
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_loading {
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-four-column-myImage {
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-myImage {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 1rem;
+}
+
+.myImage {
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    gap: 0rem;
+}
+
+.box-image--style {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: -3rem;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+
+}
+
+.main-screen-img {
+    height: 14rem;
+    width: 22rem;
+    margin-top: -4rem;
+}
+
+.main-screen {
+    display: grid;
+    place-items: center;
+    order: 1;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+}
+
+/* Star Formatting */
+.icon-style {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -2rem;
+}
+
+.star-icon {
+    font-size: 1.1rem;
+    color: orange;
+}
+
+.star-reviews {
+    padding-left: 0.8rem;
+}
+
+/* colors display */
+.colors p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.color-btnStyle {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+hr {
+    max-width: 100%;
+    width: 100%;
+    height: 0rem;
+    color: #ccc;
+}
+
+.color-active {
+    opacity: 1;
+}
+
+.checkStyle {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+/* Amount toggler */
+.amount-toggle {
+   margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.amount-style {
+    font-size: 1.4rem;
+    color: rgb(98 84 243);
+    padding-left: 2rem;
+}
+
+.amount-toggle-cart {
+    color : #b7b7b7;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sign-toggler{
+    height:1.2rem;
+    width:1.2rem;
+}

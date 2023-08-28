@@ -1,0 +1,111 @@
+.container-7 {
+    padding: 3rem 0rem 2rem 0;
+    font-family: "Jost";
+}
+
+.container-8 {
+    padding: 3rem 6rem 2rem 11rem;
+    font-family: "Jost";
+}
+.main-product{
+    max-width: 100rem;
+}
+.img-list-view {
+    margin-top: 1rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s linear;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+
+    &:hover img {
+        transform: scale(1.2);
+    }
+
+    img {
+        max-width: 90%;
+        margin-top: 1.5rem;
+        height: 20rem;
+    }
+}
+
+.btn-main .btn:hover {
+    color: #fff;
+}
+
+.list-view-h3 {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+}
+
+.list-card-data {
+    border: 0.1rem solid rgb(170 170 194 / 40%);
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.card-data-list-view {
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.grid-two-column-list-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-filter-column {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+/* SORT BUTTON */
+.grid-sort-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.sorting-list--grid {
+    display: flex;
+    gap: 1rem;
+}
+
+.sort-btn {
+    padding: 0.8rem 1rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .list-grid-icon{
+    font-size: 1.2rem;
+  }
+
+  .active-sort-btn{
+    background-color: black;
+    color: #fff;
+  }
